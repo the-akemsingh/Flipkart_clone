@@ -1,0 +1,69 @@
+header {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+}
+.navigation {
+    background-color: #2874f0;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo img {
+    width: 80px;
+    padding: 17px;
+    margin: 0 0 0 178px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search input {
+    width: 25vw;
+}
+
+.search button {
+    width: 55px;
+    margin: 0px 0 0 5px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 8vw;
+    ;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 2vh 2vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* font-weight: 900; */
+}
+
+nav ul li a img {
+    width: 2vw;
+    margin: 2px 0 0 -1px;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+nav ul li a img {
+    width: 20px;
+    margin: 2px 0 0 -1px;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+} 

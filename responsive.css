@@ -1,0 +1,137 @@
+@media screen and (max-width:1100px) {
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    nav ul {
+        margin: 0 0 0 0vw;
+        justify-content: center;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logo img {
+        margin: 0 0 0 0px;
+    }
+
+    .category {
+        font-size: 6px;
+    }
+
+    .category_image a img {
+        margin: 2px 0 0 0px;
+        width: 24px;
+    }
+
+    .banner img {
+        width: 15vw;
+        height: 33vh;
+    }
+
+    .hots {
+        font-size: 7px;
+        padding: 34px 0px 0 0;
+    }
+
+    .one {
+        font-size: 18px;
+    }
+
+    .card_content img {
+        height: 5vh;
+    }
+
+    .first {
+        margin: 10px 0;
+    }
+
+    .card {
+        height: 211.15px;
+        /* overflow: scroll; */
+    }
+
+    .card_content {
+        height: 154px;
+    }
+
+    .banner img {
+        width: 91px;
+        height: 23vh;
+        padding: 8px 0 3px 5px;
+    }
+
+    .address1,
+    .address2 {
+        margin: 20px 0 0px 8px;
+    }
+
+    .service {
+        margin: 22px 0 0 8px;
+    }
+
+    .more {
+        font-size: 1.5vw;
+    }
+
+    .extra {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .type {
+        font-size: 14px;
+    }
+
+    .type img {
+        width: 15px;
+        height: 15px;
+        margin: 26px 0 0 0;
+    }
+
+    .type a {
+        margin: 22px 0 0px 25px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .more {
+        flex-direction: column;
+        font-size: 3.5vw;
+    }
+
+    .services_addresses {
+        background-color: white;
+        margin: 40px 0 0 0;
+    }
+
+    .copyright {
+        margin: 30px 0 0 0;
+        font-size: 14px;
+    }
+
+    .options {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .payment_options {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .payment_options img {
+        width: 50vw;
+    }
+
+    .cards {
+        overflow: scroll;
+    }
+}

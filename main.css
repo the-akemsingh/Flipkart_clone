@@ -1,0 +1,140 @@
+main {
+    font-family: 'Ysabeau Infant', sans-serif;
+    min-height: 500px;
+}
+
+.quickmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 5px 0 10px 0;
+    overflow: scroll;
+}
+
+.category {
+    padding: 0 0 0 0;
+}
+
+.category_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.category_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.category_name a {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.category_name a:hover {
+    color: #2874f0;
+}
+
+.category_image a img {
+    width: 6vw;
+}
+
+.cards {
+    margin: 10px 0 0 0px;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100vw;
+    /* overflow: scroll; */
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+    height: 300.15px;
+    width: 100vw;
+}
+
+.hots {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 45px;
+    font-size: 12px;
+}
+
+.hots_image {
+    display: inline-block;
+}
+
+.one {
+    padding: 0 0;
+    font-size: 23px;
+    margin: 4px 0 0 15px;
+}
+.hots a {
+    display: inline-block;
+    background-color: #2874f0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 19px;
+    border-radius: 5px;
+    margin: 7px 0px;
+}
+
+.hots_button {
+    margin: 36px 18px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    margin: 49px 0 0 40px;
+    align-items: center;
+    height: 235px;
+    width: 200px;
+    white-space: nowrap;
+}
+
+.card_content img {
+    height: 10vh;
+}
+
+.card_content a {
+    text-decoration: none;
+}
+
+.first {
+    color: black;
+    margin: 20px 0;
+}
+
+.second {
+    color: green;
+    margin: 0px 0;
+}
+
+.third {
+    color: grey;
+    margin: 7px 0;
+}
+
+.banner {
+    display: block;
+    float: right;
+    height: auto;
+    background-color: white;
+    margin: 10px 8px 0 0;
+    width: 21vw;
+}
+
+.banner img {
+    width: 200px;
+    height: 285px;
+    padding: 10px 0 0px 24px;
+}

@@ -1,0 +1,110 @@
+footer {
+    background-color: #172337;
+    ;
+    font-family: 'Ysabeau Infant', sans-serif;
+    height: 100vh - calc(60.4px - 705.467px);
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    margin: 33px 0 0 37px;
+}
+
+.service_name {
+    color: grey;
+}
+
+.options ul li {
+    list-style: none;
+
+}
+
+.options ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.options ul li a:hover {
+    text-decoration: underline;
+}
+
+.addresses {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.address1,
+.address2 {
+    display: flex;
+    flex-direction: column;
+    margin: 33px 0 0px 82px;
+}
+
+.mailing_address,
+.office_address {
+    color: grey;
+}
+
+.services_addresses {
+    margin: 40px 0 0 80px;
+}
+
+.extra {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 6px 0 0 0;
+    justify-content: space-evenly;
+}
+
+.type {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 19px;
+}
+
+.type img {
+    width: 20px;
+    height: 20px;
+    margin: 22px 0 0 0;
+}
+
+.type a {
+    text-decoration: none;
+    color: white;
+    margin: 22px 0 0 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0 0;
+}
+
+.above_options {
+    margin: 20px 0 0 0;
+}
+
+.payment_options {
+    display: flex;
+    justify-content: center;
+}
+
+.payment_options img {
+    width: auto;
+    height: 17px;
+    margin: 15px 0 0 0;
+}

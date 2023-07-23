@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gainsboro;
+}
+
+.category_name a{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.category_name a:hover{
+    color: #2874f0;
+}
+.category_image a img{
+    width: 55px;
+}
